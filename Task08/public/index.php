@@ -1,6 +1,6 @@
 <?php
-//$pdo = new PDO('sqlite:../data/salon.db');
-$pdo = new PDO('sqlite:C:\Users\140\Desktop\Univercity\5 semester\Базы днных\task08\data\salon.db');
+$pdo = new PDO('sqlite:../data/salon.db');
+//$pdo = new PDO('sqlite:C:\Users\140\Desktop\Univercity\5 semester\Базы днных\task08\data\salon.db');
 ?>
 
 <h1>Add new emploee</h1>
@@ -134,7 +134,6 @@ $service_id = $_POST['service_id'];
 if(isset($_POST['id']))
 {
     $selected_employee_id = (int) $_POST['id'];
-    echo $selected_employee_id;
 }
 ?>
 
